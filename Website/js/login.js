@@ -22,28 +22,12 @@ function login() {
 function checkIfAccountIsAvailable(person) {
   const validAccounts = [
     {
-      email: "erik@bigdon.de",
-      password : "123456"
-    },
-    {
-      email: "Erik.Bigdon@studmail.w-hs.de",
-      password : "abcdef"
-    },
-    {
-      email: "Maureen.Kudalski@studmail.w-hs.de",
-      password : "abcdef"
-    },
-    {
-      email: "test@google.com",
-      password : "google"
-    },
-    {
       email: "test@test.de",
       password : "test"
     }
   ]
-  var emailFound = "wrongEmail";
-  for(var i=0; i<validAccounts.length;i++) {
+  let emailFound = "wrongEmail";
+  for(let i=0; i<validAccounts.length; i++) {
     if(validAccounts[i].email == person.email && validAccounts[i].password == person.password) {
       return "true";
     }

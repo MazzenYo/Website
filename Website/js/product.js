@@ -42,7 +42,7 @@ var products =
 [
   [
     {
-      link: "../images/sweatshirt_black.png",
+      link: "../img/sweatshirt_black.png",
       desc: "Classic casual t-shirt for men on the move. Mens AVE Classic Sweatshirt.",
       price: "89.99",
       fakeprice: "",
@@ -52,7 +52,7 @@ var products =
   ],
   [
     {
-      link: "../images/sweatshirt_blue.png",
+      link: "../img/sweatshirt_blue.png",
       desc: "Mens sweatshirt blue. Mens sweatshirt blue. Mens sweatshirt blue ",
       price: "69.95",
       fakeprice: "",
@@ -62,7 +62,7 @@ var products =
   ],
   [
     {
-      link: "../images/tshirt_white.png",
+      link: "../img/tshirt_white.png",
       desc: "Classic casual t-shirt for women on the move. Womens white shirt print.",
       price: "47,50",
       fakeprice: "",
@@ -72,7 +72,7 @@ var products =
   ],
   [
     {
-      link: "../images/tshirt_orange.png",
+      link: "../img/tshirt_orange.png",
       desc: "Classic casual t-shirt for women on the move. Womens burnt orange casual tee.",
       price: "29.95",
       fakeprice: "",
@@ -80,7 +80,7 @@ var products =
       productCode: "#276578"
     },
     {
-      link: "../images/thumb-back.png",
+      link: "../img/thumb-back.png",
       desc: "Classic casual t-shirt for women on the move. Womens burnt orange casual tee.",
       price: "29.95",
       fakeprice: "35",
@@ -88,7 +88,7 @@ var products =
       productCode: "#276578"
     },
     {
-      link: "../images/thumb-front.png",
+      link: "../img/thumb-front.png",
       desc: "Classic casual t-shirt for women on the move. Womens burnt orange casual tee.",
       price: "29.95",
       fakeprice: "35",
@@ -98,7 +98,7 @@ var products =
   ],
   [
     {
-      link: "../images/tshirt_green.png",
+      link: "../img/tshirt_green.png",
       desc: "Classic casual t-shirt for women on the move. Womens green tshirt.",
       price: "34.79",
       fakeprice: "",
@@ -108,7 +108,7 @@ var products =
   ],
   [
     {
-      link: "../images/tshirt_black.png",
+      link: "../img/tshirt_black.png",
       desc: "T-Shirt Black.",
       price: "72.99",
       fakeprice: "",
@@ -118,7 +118,7 @@ var products =
   ],
   [
     {
-      link: "../images/pullover_black.png",
+      link: "../img/pullover_black.png",
       desc: "Classic casual sweatshirt for men. Mens sweatshirt black.",
       price: "89.99",
       fakeprice: "107",
@@ -128,7 +128,7 @@ var products =
   ],
   [
     {
-      link: "../images/classic_sweatshirt.png",
+      link: "../img/classic_sweatshirt.png",
       desc: "Dies ist das klassische Sweatshirt.",
       price: "72.99",
       fakeprice: "",
@@ -138,7 +138,7 @@ var products =
   ],
   [
     {
-      link: "../images/classic_sweatshirt_red.png",
+      link: "../img/classic_sweatshirt_red.png",
       desc: "Dies ist das klassische Sweatshirt, aber in Rot ;P.",
       price: "69.99",
       fakeprice: "87",

@@ -1,7 +1,7 @@
 var products =
 [
   {
-    link: "../images/sweatshirt_black.png",
+    link: "../img/sweatshirt_black.png",
     desc: `<h2>Mens AVE Classic Sweatshirt <sup>£</sup>89.99</h2>
     <h3> Classic casual t-shirt for men on the move.<br>
         100% cotton.</h3>`,
@@ -10,7 +10,7 @@ var products =
     productGroupid: 0,
   },
   {
-    link: "../images/tshirt_white.png",
+    link: "../img/tshirt_white.png",
     desc: `<h2>Womens white shirt print <sup>£</sup>47.50</h2>
     <h3>Classic casual t-shirt for women on the move. <br>
         100% cotton.</h3>`,
@@ -20,7 +20,7 @@ var products =
     productGroupid: 2,
   },
   {
-    link: "../images/pullover_black.png",
+    link: "../img/pullover_black.png",
     desc: `<h2>Mens sweatshirt black <sup>£</sup>89.99</h2>
     <h3>Classic casual sweatshirt for men. <br>
         100% cotton.</h3>`,
@@ -30,7 +30,7 @@ var products =
     productGroupid: 6,
   },
   {
-    link: "../images/sweatshirt_blue.png",
+    link: "../img/sweatshirt_blue.png",
     desc: `<h2>Mens sweatshirt blue <sup>£</sup>69.95</h2>
     <h3>Classic casual sweatshirt for men. <br>
         100% cotton.</h3>`,
@@ -40,7 +40,7 @@ var products =
     productGroupid: 1,
   },
   {
-    link: "../images/tshirt_orange.png",
+    link: "../img/tshirt_orange.png",
     desc: `<h2>Womens burnt orange casual tee <sup>£</sup>29.95</h2>
     <h3>Classic casual t-shirt for women on the move. <br>
         100% cotton.</h3>`,
@@ -50,7 +50,7 @@ var products =
     productGroupid: 3,
   },
   {
-    link: "../images/tshirt_green.png",
+    link: "../img/tshirt_green.png",
     desc: `<h2>Womens green tshirt <sup>£</sup>29.95</h2>
     <h3>Classic casual t-shirt for women on the move. <br>
         100% cotton.</h3>`,
@@ -60,7 +60,7 @@ var products =
     productGroupid: 4,
   },
   {
-   link: "../images/classic_sweatshirt.png",
+   link: "../img/classic_sweatshirt.png",
    desc: `<h2>Classic Sweatshirt <sup>£</sup>72.99</h2>
    <h3>Classic sweatshirt. <br>
        100% cotton.</h3>`,
@@ -69,7 +69,7 @@ var products =
    productGroupid: 7,
   },
   {
-   link: "../images/tshirt_black.png",
+   link: "../img/tshirt_black.png",
    desc: `<h2>T-Shirt Black <sup>£</sup>72.99</h2>
    <h3>T-Shirt black. <br>
        100% cotton.</h3>`,

@@ -16,7 +16,7 @@
 .information > h2 {
   font-size: 13px;
   line-height: 20px;
-  color: #575153;
+  color: #000000;
   font-weight: 400;
 }
 .information > a {
@@ -79,7 +79,7 @@
   align: left;
   width: 570px; /*original width: 333.6625px;*/
   height: 200px; /*original height: 150px;*/
-  background-color: #333333;
+  background-color: #000000;
   text-align: center;
 }
 .awards > h1 {
@@ -133,13 +133,13 @@
 
 /*Bootom Copyright bar*/
 .copyright-bar {
-  background-color: #333333;
+  background-color: #000000;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .copyright-bar > h1 {
-  background-color: #333333;
+  background-color: #000000;
   font-size: 13px;
   line-height: 30px;
   color: #999999;

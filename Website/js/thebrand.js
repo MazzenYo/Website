@@ -10,7 +10,7 @@ function responsiveContent() {
   if(widthWindow < 1170 && currentStatus != 0) {
     top.innerHTML = `
     <div class="img">
-      <img src="../images/intro_brand.png" alt="Intro Image" class="introImg">
+      <img src="../img/intro_brand.png" alt="Intro Image" class="introImg">
     </div>
     <h1>hand designed clothing</h1>
     <h2>established in 2013, avenue fashion Sed dictum elit vel sapien</h2>
@@ -22,7 +22,7 @@ function responsiveContent() {
       sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
       et dolore magna aliquyam erat, sed diam voluptua.</p>
     <div class="img">
-      <img src="../images/our_values.png" alt="Our Values" class="valuesImg">
+      <img src="../img/our_values.png" alt="Our Values" class="valuesImg">
     </div>
     <h1>Our Values, Visions and strategy</h1>
     <h2>the above image would be a great place for an advertising video</h2>
@@ -35,7 +35,7 @@ function responsiveContent() {
     `;
     bottom.innerHTML = `
       <div class="img">
-        <img src="../images/ethical_trading.png" alt="Ethical Trading" class="ehticalImg">
+        <img src="../img/ethical_trading.png" alt="Ethical Trading" class="ehticalImg">
       </div>
       <h1>ethical trading</h1>
       <h2>we oversee the working conditions of the people in the supply chain</h2>
@@ -49,10 +49,10 @@ function responsiveContent() {
   } else if(widthWindow > 1170 && currentStatus != 1) {
     top.innerHTML = `
     <div class="img">
-      <img src="../images/intro_brand.png" alt="Intro Image" class="introImg">
+      <img src="../img/intro_brand.png" alt="Intro Image" class="introImg">
     </div>
     <div class="img">
-      <img src="../images/our_values.png" alt="Our Values" class="valuesImg">
+      <img src="../img/our_values.png" alt="Our Values" class="valuesImg">
     </div>
     <h1>Our Values, Visions and strategy</h1>
     <h2>the above image would be a great place for an advertising video</h2>
@@ -74,7 +74,7 @@ function responsiveContent() {
       sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
       et dolore magna aliquyam erat, sed diam voluptua.</p>
       <div class="img">
-        <img src="../images/ethical_trading.png" alt="Ethical Trading" class="ehticalImg">
+        <img src="../img/ethical_trading.png" alt="Ethical Trading" class="ehticalImg">
       </div>
       <h1>ethical trading</h1>
       <h2>we oversee the working conditions of the people in the supply chain</h2>

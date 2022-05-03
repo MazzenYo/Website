@@ -2,7 +2,7 @@ var products =
 [
     {
       ref: "M1",
-      link: "../images/sweatshirt_black.png",
+      link: "../img/sweatshirt_black.png",
       price: "150",
       date: "2020",
       description: `<h2>Peters classic Outfit </h2>
@@ -13,7 +13,7 @@ var products =
     },
     {
       ref: "W1",
-      link: "../images/tshirt_white.png",
+      link: "../img/tshirt_white.png",
       price: "220",
       date: "2021",
       description: `<h2>Jessys Casual Outfit </h2>
@@ -24,7 +24,7 @@ var products =
     },
     {
       ref: "MJI",
-      link: "../images/pullover_black.png",
+      link: "../img/pullover_black.png",
       price: "200",
       date: "2020",
       description: `<h2>Jens Casual Outfit </h2>
@@ -35,7 +35,7 @@ var products =
     },
     {
       ref: "M2",
-      link: "../images/sweatshirt_blue.png",
+      link: "../img/sweatshirt_blue.png",
       price: "180",
       date: "2018",
       description: `<h2>Andreas Casual Outfit </h2>
@@ -46,7 +46,7 @@ var products =
     },
     {
       ref: "W2",
-      link: "../images/tshirt_orange.png",
+      link: "../img/tshirt_orange.png",
       price: "190",
       date: "2021",
       description: `<h2>Janines Summer dress </h2>
@@ -57,7 +57,7 @@ var products =
     },
     {
       ref: "W3",
-      link: "../images/tshirt_green.png",
+      link: "../img/tshirt_green.png",
       price: "230",
       date: "2018",
       description: `<h2>Marias Casual Outfit </h2>
@@ -68,7 +68,7 @@ var products =
     },
     {
       ref: "W4",
-      link: "../images/tshirt_black.png",
+      link: "../img/tshirt_black.png",
       price: "310",
       date: "2021",
       description: `<h2>Laras Casual Outfit </h2>

@@ -1,8 +1,8 @@
 function sendToOwnLockbookIfSignedUp() {
   if(window.localStorage.getItem('user') != null) {
-    window.location.href="../pages/createBook.html";
+    window.location.href="../html/createBook.html";
   } else {
-    window.location.href="../pages/login.html";
+    window.location.href="../html/login.html";
   }
 }
 async function getUserLookbooks() {
@@ -17,7 +17,7 @@ async function getUserLookbooks() {
       for a website and this is simply filler text.
      </p>
      <button type="button" name="ownbook" onclick="sendToOwnLockbookIfSignedUp();">Own book</button>
-    <img src="../images/JanesLookbook.png" alt="Janes Lookbook" class="janes_lookbook">
+    <img src="../img/JanesLookbook.png" alt="Janes Lookbook" class="janes_lookbook">
   </div>`;
   var win_lookbook = `<div class="win-lookbook">
     <h1><b>Win</b> a new look!</h1>
@@ -30,7 +30,7 @@ async function getUserLookbooks() {
       <button type="button" name="ownBook" onclick="sendToOwnLockbookIfSignedUp();" >Own Book</button>
       <h3>Win</h3>
       <h4>a new look</h4>
-    <img src="../images/win_lookbook.png" alt="Win Lookbook" class="win_lookbook">
+    <img src="../img/win_lookbook.png" alt="Win Lookbook" class="win_lookbook">
   </div>`;
   var i = 0;
   var icount = 0;
@@ -68,7 +68,7 @@ async function getUserLookbooks() {
     var space = `<div class="image-size">
                     <b class="reference"><sup>REF</sup>${char}${ref}</b>
                     <div class="image-background-filler">
-                      <img src="../images/${img}" class="image-clothes">
+                      <${img} src="../img/img" class="image-clothes">
                     </div>
                     <div class="hide">
                       <a href="#"><i class="fa fa-info-circle"></i></a>

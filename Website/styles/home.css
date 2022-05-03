@@ -3,6 +3,7 @@ main {
   margin-left: 360px;
   margin-right: 360px;
   margin-bottom: 60px;
+  word-wrap:break-word;
 }
 .page-nav img {
   width: 965px;
@@ -20,7 +21,7 @@ main {
   float: right;
 }
 .page-nav li{
-  color: #222222;
+  color: #000000;
   text-transform: uppercase;
   font-size: 13px;
   line-height: 15px;
@@ -28,7 +29,7 @@ main {
   list-style-type: none;
 }
 .header-links {
-  color: #222222;
+  color: #000000;
   float:left;
   text-transform: uppercase;
   margin-top: 15px;
@@ -63,7 +64,7 @@ nav .submenu {
   margin-left: -120px;
   display: inline-block;
   background-color: #f8f8f8;
-  filter: drop-shadow(0px 17px 12px rgba(0,0,0,0.14));
+  filter: drop-shadow(0px 17px 12px rgba(0,0,0,1));
 }
 nav .submenu li {
 	display: block;
@@ -80,7 +81,7 @@ nav .submenu li {
 nav .submenu li .big {
   font-size: 12px;
   line-height: 50px;
-  color: #575153;
+  color: #000000;
   font-weight: 700;
 }
 nav .submenu li .normal {
@@ -94,7 +95,7 @@ nav .submenu li .normal:hover {
   color: #00c8c8;
 }
 nav .submenu-bottom li{
-  background-color: #333333;
+  background-color: #000000;
   margin-left: -15px;
   margin-bottom: 20px;
   padding-top: 20px;
@@ -119,7 +120,7 @@ nav li:focus-within .submenu {
 
 /* Homepage Logo */
  .page-logo-home {
-  color: #222222;
+  color: #000000;
   font-size: 24px;
   margin: 30px 0px 15px 70px;
   letter-spacing: 1px;
@@ -133,7 +134,7 @@ nav li:focus-within .submenu {
   font-weight: bolder;
 }
 .homepage-img {
-  background-image: url("../images/avehomepage.png");
+  background-image: url("../img/avehomepage.png");
   background-repeat: no-repeat;
 }
 .home-header-links {
@@ -289,7 +290,7 @@ b {
   font-size: 48px;
   line-height: 20px;
   color: #ffffff;
-  filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.13));
+  filter: drop-shadow(0px 2px 8px rgba(0,0,0,1));
 }
 .first .image-mini:hover{
   margin-bottom: 200px;
@@ -317,7 +318,7 @@ b {
   font-size: 48px;
   line-height: 20px;
   color: #ffffff;
-  filter: drop-shadow(0px 2px 8px rgba(0,0,0,0.13));
+  filter: drop-shadow(0px 2px 8px rgba(0,0,0,1));
 }
 .image-big:hover {
   box-shadow: 0 0 1em;
