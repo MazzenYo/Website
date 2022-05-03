@@ -1,0 +1,80 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .locations {
+    display: flex;
+    flex-wrap: none;
+    justify-content: space-between;
+    width: 1170px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .locations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 600px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.location h2 {
+  width: 370px;
+}
+.location p {
+  width: 370px;
+  height: 95px;
+  text-align: justify;
+}
+.locations button {
+  width: 218px;
+  height: 59px;
+}
+.location-detail {
+  display: flex;
+  background-color: #f8f8f8;
+  height: 530px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.location-detail button {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  border: none;
+  color:white;
+  border-radius: 75%;
+  background-color: #8e8c8c;
+}
+
+.detail {
+  margin-left: 40px;
+  width: 940px;
+}
+.contact {
+  font-size: 14px;
+  line-height: 32px;
+  color: #8e8c8c;
+  font-weight: 300;
+  color: #8e8c8c;
+}
+
+.Social-Media {
+  margin-top: 50px;
+  display: flex;
+}
+
+#map {
+  height: 530px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}

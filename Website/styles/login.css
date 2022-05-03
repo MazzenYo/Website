@@ -1,0 +1,45 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* Sign In Email and password*/
+.container {
+  /* Vielleicht nicht die beste Lösung muss eventuell nocheinmal verändert werden */
+}
+.container label {
+  color: #575153;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  display: block;
+  text-transform: uppercase;
+}
+input {
+  color: #989898;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 300;
+  width: 550px;
+  height: 40px;
+  background-color: rgba(51,51,51,0);
+  border: 1px solid #e7e7e7;
+  margin-top: 30px;
+  display: block;
+
+}
+/* Sign in Button */
+.container button {
+  width: 149px;
+  height: 59px;
+  margin-top: 30px;
+}
+.container button:hover {
+  border: 2px solid #00c8c8;
+}
+
+.errorMessage {
+  color: red;
+}

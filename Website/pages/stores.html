@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Local Stores</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/stores.css">
+  </head>
+  <body>
+    <div class="header"></div>
+    <main>
+      <div class="locations">
+        <div>
+          <h1>London</h1>
+          <h2>180-182 Regent Street, London, W1B 5BT</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing esi elit.
+            Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor
+            odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam
+            erat volutpat.</p>
+            <button type="button" name="loDetails">View Details</button>
+        </div>
+        <div>
+          <h1>New York</h1>
+          <h2>109 Columbus Circle, New York, NY 10023</h2>
+          <p>Nunc non posuere nisl. Etiam finibus vel dui nec lobortis.
+            Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum
+            dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui,
+            non sodales nisl.</p>
+            <button type="button" name="nyDetails">View Details</button>
+        </div>
+        <div>
+          <h1>Paris</h1>
+          <h2>2133 Rue Saint-Honoré, 75001 Paris</h2>
+          <p>Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus
+            eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum
+            ante ipsum primis in faucibus orcip luctus et ultrices posuere
+            cubilia curae cras ligula.</p>
+            <button type="button" name="paDetails">View Details</button>
+        </div>
+      </div>
+    </main>
+    <div class="location-detail">
+      <div id="map"></div>
+      <div class="detail">
+        <h1 class="NameDetail">London</h1>
+        <h2 class="streetDetail">180-182 Regent Street, London, W1B 5BT</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing esi elit.
+          Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor
+          odio. Fusce posuere nunc iaculis ligula viverra iaculis.
+          Aliquam erat volutpat.</p>
+          <div class="contact">
+            <i class="fa fa-map-marker"></i>&nbsp;<a class="markerText"> 180-182 Regent Street, London, W1B 5BT </a><br>
+            <i class="fa fa-phone"></i> 0123-456-789 <br>
+            <i class="fa fa-link"></i> www.yourwebsite.com <br>
+            <i class="fa fa-envelope-o"></i> support@yourwebsite.com <br>
+            <i class="fa fa-clock-o"></i> Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm<br>
+          </div>
+          <div class="Social-Media">
+            <div><button type="button" name="facebook" onclick="window.location.href='https://www.facebook.com'"><i class="fa fa-facebook"></i></button></div>
+            <div><button type="button" name="twitter" onclick="window.location.href='https://www.twitter.com'"><i class="fa fa-twitter"></i></button></div>
+            <div><button type="button" name="instagram" onclick="window.location.href='https://www.instagram.com'"><i class="fa fa-instagram"></i></button></div>
+            <div><button type="button" name="printerest" onclick="window.location.href='https://www.pinterest.com'"><i class="fa fa-pinterest"></i></button></div>
+        </div>
+      </div>
+    </div>
+    <div class="footer"></div>
+    <script src="../scripts/stores.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkkjmnysikTILftvhZ7dnvSbYzW3uBW9E&callback=initMap&libraries=&v=weekly"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="../scripts/main.js"></script>
+    <script src="../scripts/generic.js"></script>
+  </body>
+</html>

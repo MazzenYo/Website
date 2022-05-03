@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/product.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <title>Product</title>
+  </head>
+  <body>
+    <div class="header"></div>
+    <main class="upper-main">
+      <div class="flex-container">
+        <div class="img">
+          <!-- Button haben keine Funktion -->
+          <img src="../images/classic_sweatshirt.png" alt="Classic Sweatshirt" class="classicImg">
+          <div class="button-holder">
+            <button type="button" name="previous" class ="prev" onclick="leftButtonClicked()"><i class="fa fa-angle-left"></i></button>
+            <button type="button" name="next" class = "next" onclick="rightButtonClicked()"><i class="fa fa-angle-right"></i></button>
+          </div>
+        </div>
+        <div class="description">
+          <h1>Ave Classic Sweatshirt</h1>
+          <div class="over-view">
+            <div class="reviews">
+                <i style="color: #ded3aa;" class="fa fa-star"></i>
+                <i style="color: #ded3aa;" class="fa fa-star"></i>
+                <i style="color: #ded3aa;" class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              <b>3 Review(s)</b>
+            </div>
+            <div class="add-review">
+              <button type="button" name="add_review">Add a Review</button>
+            </div>
+              <div class="Social-Media">
+                <b>Share:</b>
+                <div><button type="button" name="facebook" onclick="window.location.href='https://www.facebook.com'"><i class="fa fa-facebook"></i></button></div>
+                <div><button type="button" name="twitter" onclick="window.location.href='https://www.twitter.com'"><i class="fa fa-twitter"></i></button></div>
+                <div><button type="button" name="google"><i class="fa fa-google-plus" onclick="window.location.href='https://www.google.com'"></i></button></div>
+                <div><button type="button" name="instagram"><i class="fa fa-instagram" onclick="window.location.href='https://www.instagram.com'"></i></button></div>
+                <div><button type="button" name="printerest"><i class="fa fa-pinterest" onclick="window.location.href='https://www.pinterest.com'"></i></button></div>
+                <div><button type="button" name="mail"><i class="fa fa-envelope-o" onclick="window.location.href='mailto:support@yourwebsite.com'"></i></button></div>
+            </div>
+          </div>
+          <div class="price">
+            <s><sup>£</sup><div class="fakeprice">107</div></s> <sup>£</sup><div class="newprice">89.99</div>
+          </div>
+          <div class="available">
+            <p><b>Availability:</b> In stock <br>
+              <b>Product Code:</b> #499577
+            </p>
+          </div>
+          <div class="product-description">
+            <p class="direct-description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur
+            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+            et dolore magna aliquyam erat, sed diam voluptua.</p>
+            <ul class="list-of-pros">
+              <li>Elasticated cuffs</li>
+              <li>Casual fit</li>
+              <li>100% Cotton</li>
+              <li>Free shipping with 4 day delivery</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <main>
+      <div>
+        <div class="nav-description" id="nav">
+          <button id="description"class="btn active" type="button">Description</button></li>
+          <button class="btn" type="button">Video</button></li>
+          <button class="btn" type="button">Size & Specs</button></li>
+          <button class="btn" type="button">Delivery & Returns</button></li>
+          <button class="btn" type="button">Review</button></li>
+        </div>
+        <div class="full-description" id="hide">
+          <h2>Nunc egestas posuere enim, eu maximus erat posuere eget</h2>
+          <p>Sed ut mi mollis, consequat nulla lacinia, hendrerit turpis.
+            Nulla sapien magna, interdum quis pretium nec, pharetra at felis.
+            Curabitur dictum sapien est, eget ultricies turpis porta vel. Nam
+            suscipit nec lacus sed imperdiet. Vestibulum a purus risus. Nulla et
+            dictum augue, nec efficitur mi. Nam sit amet pretium elit. Aliquam
+            congue, ligula id vehicula vestibulum, orci ex vulputate lacus, ac
+            malesuada elit dolor eget ex. Sed quis aliquet risus, ut cursus
+            lectus. In eget lorem tellus.<br>
+
+            Quisque eleifend varius nisi nec sagittis. Nulla ullamcorper imperdiet
+            justo, ut venenatis purus lobortis ut. Nunc sagittis urna et hendrerit
+            sodales. Nunc molestie risus nec fringilla lacinia. Nulla facilisi.
+            Etiam neque velit, tristique eget sollicitudin eget, placerat at metus.
+            Proin dictum lobortis velit, id suscipit orci faucibus ut. Aliquam
+            erat volutpat. Vivamus feugiat justo in diam placerat, id dignissim
+            elit auctor. Vestibulum scelerisque sem et lobortis ultricies. Morbi
+            suscipit nulla urna. Suspendisse potenti. Nullam varius quam sed nisl
+            dignissim, vel faucibus ipsum blandit. Vivamus at suscipit augue. Nam
+            finibus gravida lorem eu viverra. Praesent rhoncus imperdiet ultricies.
+            Nullam pretium cursus augue auctor vulputate. Quisque a convallis diam
+            commodo eget diam id, eleifend dictum libero. Etiam varius, nisi vel
+            dignissim sodales, enim dui posuere mauris, in aliquet lorem eros eget
+            neque.</p>
+        </div>
+      </div>
+    </main>
+      <div class="footer"></div>
+      <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+      <script src="../scripts/main.js"></script>
+      <script src="../scripts/generic.js"></script>
+      <script src="../scripts/product.js"></script>
+  </body>
+</html>

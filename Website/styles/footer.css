@@ -1,0 +1,150 @@
+.background {
+  background-color: #F9F9F9;
+}
+
+/* Information and Contact Pack*/
+.infcont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.information {
+  height: 200px;
+  width: 570px;
+}
+.information > h2 {
+  font-size: 13px;
+  line-height: 20px;
+  color: #575153;
+  font-weight: 400;
+}
+.information > a {
+  font-size: 14px;
+  line-height: 30px;
+  color: #727272;
+  font-weight: 300;
+  text-decoration: none;
+}
+.information > br {
+  height: 2px;
+}
+
+.contact {
+  height: 200px;
+  width: 570px;
+}
+@media only screen and (min-width: 1140px) {
+  .contactaligner {
+    float:right;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contactaligner {
+    float:left;
+  }
+}
+.contact > .contactaligner > h1 {
+  font-size: 13px;
+  line-height: 20px;
+  color: #575153;
+  font-weight: 400;
+}
+.contact > .contactaligner > p {
+  height: auto;
+  font-size: 14px;
+  line-height: 20px;
+  color: #727272;
+  font-weight: 300;
+  margin-bottom: -14px;
+  font-family: "Montserrat", sans-serif;
+  color: #727272;
+}
+.contact > .contactaligner > a {
+  font-size: 14px;
+  line-height: 30px;
+  color: #727272;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/* Awards and Social-media Pack*/
+.awardsocials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.awards {
+  align: left;
+  width: 570px; /*original width: 333.6625px;*/
+  height: 200px; /*original height: 150px;*/
+  background-color: #333333;
+  text-align: center;
+}
+.awards > h1 {
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 60px;
+  font-variant: small-caps;
+}
+.awards > h2 {
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  font-weight: 100;
+}
+.SocialContacts {
+  display: flex;
+  justify-content: space-around;
+  /*justify-content: center;*/ /*original center*/
+  align-items: center;
+  width: 570px; /*original width: 333.6625px;*/
+  height: 200px; /*original height: 150px;*/
+  background-color: #00c8c8;
+  margin-top: 10px;
+}
+@media only screen and (min-width: 1140px) {
+  .SocialContacts {
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .SocialContacts {
+    margin-top: 25px;
+  }
+}
+.SocialContacts > a {
+  background-color: inherit;
+  font-size: 36px;
+  letter-spacing: 45px;
+  line-height: 48px;
+  color: #ffffff;
+  text-align: center;
+}
+.SocialContacts > a > i {
+  width: 36px;
+  height: 36px;
+}
+
+/*Bootom Copyright bar*/
+.copyright-bar {
+  background-color: #333333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.copyright-bar > h1 {
+  background-color: #333333;
+  font-size: 13px;
+  line-height: 30px;
+  color: #999999;
+  text-align: left;
+  width: 570px;
+  font-weight: 400;
+  font-family: "Montserrat";
+}

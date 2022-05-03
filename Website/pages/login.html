@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign in</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/login.css">
+  </head>
+  <body>
+    <div class="header"></div>
+  <main>
+    <!-- Es fehlt noch input error! Implementierung von login fehlgeschlagen (Rotere Umrandung der Email oder Passwort: Siehe sign up.psd) -->
+    <div class="container">
+      <label for="signIn">Sign In</label>
+      <input onchange="checkForValidEmail()" type="text" placeholder="Your Email" name="email" required>
+      <input type="password" placeholder="Your Password" name="psw" required>
+      <p class="errorMessage"></p>
+      <button type="submit" onclick="login();">Sign In</button>
+    </div>
+  </main>
+  <div class="footer"></div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="../scripts/main.js"></script>
+  <script src="../scripts/generic.js"></script>
+  <script src="../scripts/login.js"></script>
+  </body>
+</html>
