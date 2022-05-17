@@ -1,0 +1,145 @@
+body, * , *:before ,*:after{
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Montserrat", sans-serif ;
+    font-size: 16px;
+    color: #9a9a9a;
+}
+
+#top-bar{
+    max-width: 100%;
+    background-color: #333333;
+    min-height: 45px;
+}
+    #top-bar>a{
+        font-size: 13px;
+        line-height: 45px;
+        margin-right: 35%;
+        color: #999999;
+        font-weight: 400;
+        float: right;
+    }
+    #top-bar>a:hover{
+        font-weight: bold;
+    }
+/*
+psd file: 2053px breit
+*/
+#logo{
+    font-size: 24px;
+    letter-spacing: 1px;
+    position: absolute;
+    color: #222222;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 30px 80% 15px 6%;
+    display: flex;
+}
+    #logo em {
+        font-style: normal;
+        font-weight: bolder;
+    }
+
+header{
+    width: 100%;
+    height: 54%;
+}
+    header ul{
+        display: inline-flex;
+        float: right;
+    }
+    header li{
+        color: #000000;
+        text-transform: uppercase;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 400;
+        list-style-type: none;
+    }
+
+nav{
+    background: none;
+    position: absolute;
+    right: 20px;
+}
+    nav li{
+        color: #989898;
+        text-transform: uppercase;
+        font-size: 13px;
+        line-height: 15px;
+        font-weight: 400;
+        list-style-type: none;
+    }
+    nav ul{
+        display: inline-flex;
+        float: right;
+    }
+
+
+.link{
+    color: #989898;
+    float:left;
+    text-transform: uppercase;
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+    list-style-type: none;
+    margin-right: 3em;
+    text-decoration: none;
+    }
+    .link i{
+        margin-top: -5px;
+        font-size: 13px;
+        line-height: 40px;
+    }
+    header li:hover .link{
+        color: #00c8c8;
+    }
+
+
+    .submenu {
+        visibility: hidden;
+        height: auto;
+        width: 400px;
+        position: absolute;
+        z-index: 1000;
+        margin-top: 60px;
+        margin-left: -200px;
+        display: inline-block;
+        display: flex;
+    }
+
+    .sub-header{
+        font-size: 12px;
+        line-height: 50px;
+        color: #989898;
+        font-weight: 700;
+    }
+
+        nav #sub-men{
+            margin-bottom: 20px;
+        }
+        nav #sub-women{
+            padding-left: 50px;
+        }
+        nav #sub-kids{
+            padding-left: 50px;
+        }
+    #submenu-men li,#submenu-women li,#submenu-kids li .submenu a{
+        text-transform: none;
+        font-size: 14px;
+        line-height: 30px;
+        color: #727272;
+        font-weight: 300;
+    }
+ul li:hover .submenu, ul li:focus .submenu {
+    visibility: visible;
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+}
