@@ -57,6 +57,7 @@ html, body {
 #slide-container {
     width: 100%;
     height: 920px;
+    background-color: #f8f8f8;
 }
 
 #slide-container ul {
