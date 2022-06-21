@@ -1,0 +1,164 @@
+html, body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #9a9a9a;
+}
+
+footer{
+    background-color: #f8f8f8;
+}
+
+#footercont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#info{
+    height: 200px;
+    width: 570px;
+}
+
+#info > h1{
+    font-size: 13px;
+    line-height: 50px;
+    color: #575153;
+    font-weight: bold;
+}
+
+#info > a{
+    font-size: 14px;
+    line-height: 30px;
+    color: #727272;
+    font-weight: 300;
+
+}
+
+#contact{
+    height: 200px;
+    width: 570px;
+}
+
+
+@media only screen and (min-width: 1140px) {
+    #contact>div {
+        float:right;
+    }
+}
+
+@media only screen and (max-width: 1139px) {
+    #contact>div {
+        float:left;
+    }
+}
+
+
+#contact >div> h1{
+    font-size: 13px;
+    line-height: 50px;
+    color: #575153;
+    font-weight: bold;
+}
+#contact >div>  p{
+    height: auto;
+    font-size: 14px;
+    line-height: 20px;
+    color: #727272;
+    font-weight: 300;
+}
+
+#contact > div> a{
+    font-size: 14px;
+    line-height: 30px;
+    color: #727272;
+    font-weight: 300;
+}
+
+#banners{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#award{
+    width: 570px;
+    height: 200px;
+    background-color: #333333;
+    text-align: center;
+}
+#award > h1{
+    font-size: 36px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 60px;
+    font-variant: small-caps;
+}
+
+#award > h2 {
+    color: #ffffff;
+    font-size: 36px;
+    letter-spacing: 2px;
+    line-height: 24px;
+    font-weight: 100;
+    margin-top: 2%;
+}
+
+#social{
+    display: flex;
+    justify-content: space-around;
+    width: 570px;
+    height: 200px;
+    background-color: #00c8c8;
+    align-items: center;
+}
+#social > a{
+    font-size: 36px;
+    letter-spacing: 2px;
+    line-height: 48px;
+    color: #ffffff;
+    font-family: "Font Awesome", serif;
+}
+@media only screen and (min-width: 1140px) {
+    .SocialContacts {
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 1139px) {
+    .SocialContacts {
+        margin-top: 25px;
+    }
+}
+
+#copyright{
+    background-color: #333333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#created{
+    text-align: left;
+    font-size: 13px;
+    line-height: 30px;
+    color: #999999;
+    font-weight: 400;
+    width: 570px;
+    font-family: "Montserrat", serif;
+}
+#designed{
+    font-size: 13px;
+    line-height: 20px;
+    color: #777777;
+    font-weight: 400;
+    width: 570px;
+    font-family: "Montserrat", serif;
+    text-align: right;
+}
+
+
+
