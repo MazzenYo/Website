@@ -5,50 +5,56 @@
     <title>Local Stores</title>
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/5fe191d028.js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/LocalStores.css">
+    <link rel="stylesheet" href="../css/footer.css">
 </head>
 <body>
 <header>
-    <a href="">Sign in</a>
-    <a href="home.html"><em>Avenue</em> Fashion</a>
-    <div>
-        <nav>
-            <ul>
-                <li><a href="../html/home.html">Products<i class="fa-solid fa-angle-down"></i></a></li>
+    <div href="" id="top-bar"><a>Sign in</a></div>
+</header>
+<header class="page-nav">
+    <a id="logo" href="home.html"><em>Avenue</em> Fashion</a>
+    <nav>
+        <ul>
+            <li tabindex="0"><a href="../Sites/product.html" class="link">Products<br><i
+                    class="fa fa-angle-down"></i></a>
                 <ul>
-                    <div>
-                        <li><a href="">Men</a></li>
-                        <li><a href="">T-Shirt</a></li>
-                        <li><a href="">Sweatshirt</a></li>
-                        <li><a href="">Pullover</a></li>
+                    <div class="submenu">
+                        <div id="sub-men">
+                            <li><a href="" class="sub-header">Men</a></li>
+                            <li><a href="">T-Shirt</a></li>
+                            <li><a href="">Sweatshirt</a></li>
+                            <li><a href="">Pullover</a></li>
+                        </div>
+                        <div id="sub-women">
+                            <li><a href="" class="sub-header">Women</a></li>
+                            <li><a href="">T-Shirt</a></li>
+                            <li><a href="">Sweatshirt</a></li>
+                            <li><a href="">Pullover</a></li>
+                        </div>
+                        <div id="sub-kids">
+                            <li><a href="" class="sub-header">Kids</a></li>
+                            <li><a href="">T-Shirt</a></li>
+                            <li><a href="">Sweatshirt</a></li>
+                            <li><a href="">Pullover</a></li>
+                        </div>
                     </div>
-                    <div>
-                        <li><a href="">Women</a></li>
-                        <li><a href="">T-Shirt</a></li>
-                        <li><a href="">Sweatshirt</a></li>
-                        <li><a href="">Pullover</a></li>
-                    </div>
-                    <div>
-                        <li><a href="">Kids</a></li>
-                        <li><a href="">T-Shirt</a></li>
-                        <li><a href="">Sweatshirt</a></li>
-                        <li><a href="">Pullover</a></li>
-                    </div>
-                    </li>
                 </ul>
-                <li><a href="../html/The%20Brand.html">THE BRAND<i class="fa-solid fa-angle-down"></i></a></li>
-                <li><a href="../html/Local%20Stores.html">LOCAL STORES<i class="fa-solid fa-angle-down"></i></a></li>
-                <li><a href="../html/Lookbook.html">LOOK BOOK<i class="fa-solid fa-angle-down"></i></a></li>
-            </ul>
-        </nav>
-    </div>
-    <div>
+            </li>
+            <li><a href="../../server/js/thebrand.html" class="link">The Brand<br><i class="fa fa-angle-down"></i></a>
+            </li>
+            <li><a href="../Sites/stores.html" class="link">Local Stores<br><i class="fa fa-angle-down"></i></a></li>
+            <li><a href="lookbook.html" class="link">Look Book<br><i class="fa fa-angle-down"></i></a></li>
+        </ul>
+    </nav>
+    <div id="avelogo">
         <span>A</span>
         <span>V</span>
         <span>E</span>
     </div>
     <div class="banner">
-        <img alt="Hauptmenü Foto" src="../img/banner.png">
+        <img alt="Hauptmenü Foto" src="../img/banner.png" class="banner-image">
     </div>
     <div class="banner-text">
         <h1 style="text-transform:uppercase"><strong></strong>&nbsp;<a><b>Local</b> stores</a></h1>
@@ -57,7 +63,7 @@
 
 </header>
 <main>
-    <div>
+    <div class="locations">
         <div>
             <h1>London</h1>
             <h2>180-182 Regent Street, London, W1B 5BT</h2>
@@ -87,125 +93,86 @@
         </div>
     </div>
 </main>
-<div>
-    <div>
-        <div>
-            <h1>London</h1>
-            <h2>180-182 Regent Street, London, W1B 5BT</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing esi elit.
-                Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor
-                odio. Fusce posuere nunc iaculis ligula viverra iaculis.
-                Aliquam erat volutpat.</p>
-            <iframe allowfullscreen="" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.04050293005!2d-0.14200518420424563!3d51.5124729181531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d5742d021f%3A0xa612bb1b1adfcb37!2s180-182%20Regent%20St.%2C%20London%20W1B%205TW%2C%20Vereinigtes%20K%C3%B6nigreich!5e0!3m2!1sde!2sde!4v1651871485076!5m2!1sde!2sde"
-                    style="border:0;" width="600"></iframe>
-            <i class="fa fa-location-dot"></i> 180-182 Regent Street, London, W1B 5BT </a><br>
-            <i class="fa fa-phone"></i> <a href="tel:0123-456-789"> 0123-456-789</a><br>
-            <i class="fa fa-link"></i> <a href="www.yourwebsite.com">www.yourwebsite.com</a> <br>
-            <i class="fa fa-envelope-o"></i> <a href="mailto:support@yourwebsite.com"> support@yourwebsite.com </a><br>
+<div class="location-detail">
+    <div id="map"></div>
+    <div class="detail">
+        <h1 class="NameDetail">London</h1>
+        <h2 class="streetDetail">180-182 Regent Street, London, W1B 5BT</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing esi elit.
+            Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor
+            odio. Fusce posuere nunc iaculis ligula viverra iaculis.
+            Aliquam erat volutpat.</p>
+        <div class="contact">
+            <i class="fa fa-map-marker"></i>&nbsp;<a class="markerText"> 180-182 Regent Street, London, W1B 5BT </a><br>
+            <i class="fa fa-phone"></i> 0123-456-789 <br>
+            <i class="fa fa-link"></i> www.yourwebsite.com <br>
+            <i class="fa fa-envelope-o"></i> support@yourwebsite.com <br>
             <i class="fa fa-clock-o"></i> Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm<br>
-
-            <span>
-                <div><button name="facebook" onclick="window.location.href='https://www.facebook.com'" type="button"><i
-                        class="fa fa-facebook"></i></button></div>
-                <div><button name="twitter" onclick="window.location.href='https://www.twitter.com'" type="button"><i
-                        class="fa fa-twitter"></i></button></div>
-                <div><button name="instagram" onclick="window.location.href='https://www.instagram.com'"
-                             type="button"><i class="fa fa-instagram"></i></button></div>
-                <div><button name="pinterest" onclick="window.location.href='https://www.pinterest.com'"
-                             type="button"><i class="fa fa-pinterest"></i></button></div>
-            </span>
         </div>
-        <div>
-            <h1>New York</h1>
-            <h2>109 Columbus Circle, New York, NY 10023</h2>
-            <p>Nunc non posuere nisl. Etiam finibus vel dui nec lobortis.
-                Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum
-                dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui,
-                non sodales nisl.</p>
-            <iframe allowfullscreen="" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.7234837895594!2d-73.9841316845008!3d40.76810614211776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f63cf10429%3A0xfbc5a6a8a9420e16!2s109%20Columbus%20Cir%2C%20New%20York%2C%20NY%2010019%2C%20USA!5e0!3m2!1sde!2sde!4v1651872658785!5m2!1sde!2sde"
-                    style="border:0;" width="600"></iframe>
-            <i class="fa fa-location-dot"></i> 109 Columbus Circle, New York, NY 10023 </a><br>
-            <i class="fa fa-phone"></i> <a href="tel:0123-456-789"> 0123-456-789</a><br>
-            <i class="fa fa-link"></i> <a href="www.yourwebsite.com">www.yourwebsite.com</a> <br>
-            <i class="fa fa-envelope-o"></i> <a href="mailto:support@yourwebsite.com"> support@yourwebsite.com </a><br>
-            <i class="fa fa-clock-o"></i> Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm<br>
-
-            <span>
-                <div><button name="facebook" onclick="window.location.href='https://www.facebook.com'" type="button"><i
-                        class="fa fa-facebook"></i></button></div>
-                <div><button name="twitter" onclick="window.location.href='https://www.twitter.com'" type="button"><i
-                        class="fa fa-twitter"></i></button></div>
-                <div><button name="instagram" onclick="window.location.href='https://www.instagram.com'"
-                             type="button"><i class="fa fa-instagram"></i></button></div>
-                <div><button name="pinterest" onclick="window.location.href='https://www.pinterest.com'"
-                             type="button"><i class="fa fa-pinterest"></i></button></div>
-            </span>
+        <div class="Social-Media">
+            <div>
+                <button name="facebook" onclick="window.location.href='https://www.facebook.com'" type="button"><i
+                        class="fa fa-facebook"></i></button>
+            </div>
+            <div>
+                <button name="twitter" onclick="window.location.href='https://www.twitter.com'" type="button"><i
+                        class="fa fa-twitter"></i></button>
+            </div>
+            <div>
+                <button name="instagram" onclick="window.location.href='https://www.instagram.com'"
+                        type="button"><i class="fa fa-instagram"></i></button>
+            </div>
+            <div>
+                <button name="pinterest" onclick="window.location.href='https://www.pinterest.com'"
+                        type="button"><i class="fa fa-pinterest"></i></button>
+            </div>
         </div>
-        <div>
-            <h1>Paris</h1>
-            <h2>213 Rue Saint-Honoré, 75001 Paris</h2>
-            <p>Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus
-                eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum
-                ante ipsum primis in faucibus orcip luctus et ultrices posuere
-                cubilia curae cras ligula.</p>
-            <iframe allowfullscreen="" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.6259723693374!2d2.328629815716891!3d48.865342308171115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2e35e4302d%3A0xbc3f54a04bc48b36!2s213%20Rue%20St%20Honor%C3%A9%2C%2075001%20Paris%2C%20Frankreich!5e0!3m2!1sde!2sde!4v1651872878512!5m2!1sde!2sde"
-                    style="border:0;" width="600"></iframe>
-            <i class="fa fa-location-dot"></i> 213 Rue Saint-Honoré, 75001 Paris </a><br>
-            <i class="fa fa-phone"></i> <a href="tel:0123-456-789"> 0123-456-789</a><br>
-            <i class="fa fa-link"></i> <a href="www.yourwebsite.com">www.yourwebsite.com</a> <br>
-            <i class="fa fa-envelope-o"></i> <a href="mailto:support@yourwebsite.com"> support@yourwebsite.com </a><br>
-            <i class="fa fa-clock-o"></i> Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm<br>
-
-            <span>
-                <div><button name="facebook" onclick="window.location.href='https://www.facebook.com'" type="button"><i
-                        class="fa fa-facebook"></i></button></div>
-                <div><button name="twitter" onclick="window.location.href='https://www.twitter.com'" type="button"><i
-                        class="fa fa-twitter"></i></button></div>
-                <div><button name="instagram" onclick="window.location.href='https://www.instagram.com'"
-                             type="button"><i class="fa fa-instagram"></i></button></div>
-                <div><button name="pinterest" onclick="window.location.href='https://www.pinterest.com'"
-                             type="button"><i class="fa fa-pinterest"></i></button></div>
-            </span>
-        </div>
-
     </div>
 </div>
 <footer>
-    <div>
-        <div>
+    <div id="footercont">
+        <div id="info">
             <h1>INFORMATION</h1>
-            <a href="">The brand</a>
-            <a href="">Local stores</a>
-            <a href="">Customer service</a>
-            <a href="">Privacy & cookies</a>
+            <a href="">The brand</a><br>
+            <a href="">Local stores</a><br>
+            <a href="">Customer service</a><br>
+            <a href="">Privacy & cookies</a><br>
             <a href="">Site map</a>
         </div>
-        <div>
-            <h1>CONTACT DETAILS</h1>
-            <p> Head Office: Avenue Fashion.</p>
-            <p> 180-182 Regent Street, London</p><br>
-            <a href="tel:+0123-456-7890"> Telephone: 0123-456-7890</a><br>
-            <a href="mailto:support@yourwebsite.com"> Email: support@yourwebsite.com</a>
+        <div id="contact">
+            <div>
+                <h1>CONTACT DETAILS</h1>
+                <p> Head Office: Avenue Fashion.</p>
+                <p> 180-182 Regent Street, London</p><br>
+                <a href="tel:+0123-456-7890"> Telephone: 0123-456-7890</a><br>
+                <a href="mailto:support@yourwebsite.com"> Email: support@yourwebsite.com</a>
+            </div>
         </div>
     </div>
-    <div>
-        <div>
+    <div id="banners">
+        <div id="award">
             <h1>AWARD WINNER</h1>
             <h2>FASHION AWARDS 2016</h2>
         </div>
-        <div>
+        <div id="social">
+            <a href=""><i></i></a>
             <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
             <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
             <a href="https://www.instagram.com"><i class="fa-brands fa-instagram-square"></i></a>
             <a href="https://www.pinterest.de"><i class="fa-brands fa-pinterest"></i></a>
+            <a href=""><i></i></a>
         </div>
     </div>
-    <div>
-        <h1>&copy; 2016 Avenue Fashion&trade;</h1>
+    <div id="copyright">
+        <h1 id="created">&copy; 2016 Avenue Fashion&trade;</h1>
+        <h1 id="designed">Design by RobbyDesigns.com&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; Dev by Loremipsum.com</h1>
     </div>
 </footer>
+<script src="../js/stores.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkkjmnysikTILftvhZ7dnvSbYzW3uBW9E&callback=initMap&libraries=&v=weekly"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="../js/main.js"></script>
+<script src="../js/generic.js"></script>
 </body>
 </html>
