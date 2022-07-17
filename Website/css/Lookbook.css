@@ -1,0 +1,366 @@
+/* Main Content Filter */
+.border {
+    margin-top: 60px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: auto;
+    height: 1px;
+    background-color: #eeeeee;
+}
+
+.product-filter {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.product-filter-item {
+    display: inline;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-right: 3.5em;
+}
+
+.product-filter-item:hover {
+    color: #00c8c8;
+    cursor: pointer;
+}
+
+.product-filter button {
+    text-decoration: none;
+}
+
+/* Main Content */
+.content {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+button {
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 20px;
+    width: 180px;
+    height: 59px;
+}
+
+/* Images */
+.image-size {
+    width: 420px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.image-clothes {
+    max-width: 420px;
+    height: 500px;
+}
+
+.second .image-size {
+    max-width: 420px;
+    height: 500px;
+    margin-top: 30px;
+}
+
+.jane-lookbook {
+    width: 870px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.janes_lookbook {
+    margin-top: -120px;
+}
+
+.tshirt_black {
+    max-width: 420px;
+    height: 500px;
+}
+
+.image-size b {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    font-size: 21px;
+    color: #9a9a9a;
+    font-weight: 300;
+}
+
+/* Flexbox */
+.first {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second {
+    display: flex;
+    justify-content: space-between;
+}
+
+.third {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-size sup {
+    font-size: 13px;
+}
+
+@media only screen and (max-width: 1820px) {
+    .first {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .second {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .third {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .janes_lookbook {
+        margin-top: 30px;
+    }
+
+    .win-lookbook {
+        margin-bottom: 30px;
+    }
+}
+
+/* Janes Lookbook */
+.jane-lookbook h1 {
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 20px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    line-height: 54px;
+    color: #575153;
+    font-weight: 400;
+}
+
+.jane-lookbook h2 {
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #727272;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.jane-lookbook p {
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 20px;
+    width: 320px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #8e8c8c;
+    font-weight: 400;
+}
+
+.jane-lookbook button:hover {
+    border-color: #00c8c8;
+}
+
+/* Win a LookBook */
+.win-lookbook {
+    width: 1320px;
+    height: 500px;
+    background-color: #efefed;
+    overflow: hidden;
+}
+
+.win_lookbook {
+    margin-top: -100px;
+    margin-left: 290px;
+}
+
+.win-lookbook h1 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 48px;
+    letter-spacing: 2px;
+    line-height: 54px;
+    color: #575153;
+    font-weight: 400;
+}
+
+.win-lookbook h2 {
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #727272;
+    font-weight: 600;
+}
+
+.win-lookbook p {
+    position: absolute;
+    margin-top: 145px;
+    margin-left: 20px;
+    width: 500px;
+}
+
+.win-lookbook button:hover {
+    border-color: #00c8c8;
+}
+
+.win-lookbook h3 {
+    position: absolute;
+    font-size: 200px;
+    letter-spacing: 10px;
+    line-height: 54px;
+    color: #00c8c8;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.win-lookbook h4 {
+    position: absolute;
+    margin-top: 325px;
+    font-size: 72px;
+    letter-spacing: 4px;
+    line-height: 54px;
+    color: #00c8c8;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+@media only screen and (min-width: 1375px) {
+    .win-lookbook h3 {
+        margin-left: 840px;
+    }
+
+    .win-lookbook h4 {
+        margin-left: 765px;
+    }
+}
+
+@media only screen and (max-width: 1375px) {
+    .win-lookbook h3 {
+        right: 50px;
+    }
+
+    .win-lookbook h4 {
+        right: 70px;
+    }
+}
+
+/* Hide */
+.hidden h2 {
+    font-size: 13px;
+    line-height: 20px;
+    color: #727272;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hidden h3 {
+    margin-top: -8px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #8e8c8c;
+    font-weight: 400;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.hidden h4 {
+    text-transform: uppercase;
+    margin-top: -6px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #727272;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+    position: absolute;
+    width: 420px;
+    z-index: 1;
+}
+
+.image-size i.fa.fa-info-circle {
+    margin-left: 140px;
+    margin-top: -250px;
+    position: absolute;
+    font-size: 48px;
+    line-height: 20px;
+    color: #ffffff;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.13));
+}
+
+.image-size i.fa.fa-gratipay {
+    margin-left: 220px;
+    margin-top: -250px;
+    position: absolute;
+    font-size: 48px;
+    line-height: 20px;
+    color: #ffffff;
+    filter: drop-shadow(0px 2px 8px rgba(0, 0, 0, 0.13));
+}
+
+.image-size:hover {
+    box-shadow: 0 0 1em;
+    padding-bottom: 150px;
+}
+
+.image-size:hover .hidden {
+    display: block;
+}
+
+/* Pagination */
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 55px;
+    font-size: 23px;
+    width: 50px;
+
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #727272;
+}
+
+.pagination a.active {
+    color: #00c8c8;
+}
+
+.pagination a:hover {
+    color: #00c8c8;
+}
+
+.image-background-filler {
+    background-color: #F9F9F9;
+    width: 100%;
+}
+
+.image-background-filler > img {
+    margin-left: 25px;
+}
