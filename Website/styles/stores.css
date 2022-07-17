@@ -34,6 +34,7 @@ main {
   height: 95px;
   text-align: justify;
 }
+
 .locations button {
   width: 218px;
   height: 59px;
@@ -45,6 +46,7 @@ main {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .location-detail button {
   width: 50px;
   height: 50px;
