@@ -5,9 +5,9 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
-      <excludeFolder url="file://$MODULE_DIR$/Website/js" />
-      <excludeFolder url="file://$MODULE_DIR$/Website/styles" />
-      <excludeFolder url="file://$MODULE_DIR$/Website/Sites" />
+      <excludeFolder url="file://$MODULE_DIR$/js" />
+      <excludeFolder url="file://$MODULE_DIR$/Sites" />
+      <excludeFolder url="file://$MODULE_DIR$/styles" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

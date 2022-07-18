@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/home.css">
+    <link rel="stylesheet" href="../styles/header.css">
+</head>
+<body>
+<header class="page-header-login">
+    <a href="login.html" class="login-link">Sign In</a>
+</header>
+<header class="page-nav">
+    <a class="page-logo-home" href="home.html"><em>Avenue</em> Fashion</a>
+    <div class="home-header-links">
+        <nav>
+            <ul>
+                <li><a href="product.html" class="header-links">Products <br><i class="fa fa-angle-down"></i></a>
+                    <ul class="submenu">
+                        <div class="submenu-top">
+                            <div class="submenu-left">
+                                <li><a class="big" href="#">Casual</a></li>
+                                <li><a  tabindex="0" href="#">Jackets</a></li>
+                                <li><a  tabindex="0" href="#">Hoodies & Sweatshirts</a></li>
+                                <li><a  tabindex="0" href="#">Polo Shirts</a></li>
+                                <li><a  tabindex="0" href="#">Sportswear</a></li>
+                                <li><a  tabindex="0" href="#">Trousers & Chinos</a></li>
+                                <li><a  tabindex="0" href="#">T-Shirts</a></li>
+                            </div>
+                            <div class="submenu-right">
+                                <li><a class="big" href="#">Formal</a></li>
+                                <li><a class="normal" tabindex="0" href="#">Jackets</a></li>
+                                <li><a class="normal" tabindex="0" href="#">Shirts</a></li>
+                                <li><a class="normal" tabindex="0" href="#">Suits</a></li>
+                                <li><a class="normal" tabindex="0" href="#">Trousers</a></li>
+                            </div>
+                        </div>
+                        <div class="submenu-bottom">
+                            <li>Autumn Sale!<br>up to 50% off</li>
+                        </div>
+                    </ul>
+                </li>
+                <li><a href="thebrand.html" class="header-links">The Brand <br><i class="fa fa-angle-down"></i></a></li>
+                <li><a href="stores.html" class="header-links">Local Stores <br><i class="fa fa-angle-down"></i></a>
+                </li>
+                <li><a href="lookbook.html" class="header-links">Look Book <br><i class="fa fa-angle-down"></i></a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="homepage-ave-text">
+        <div>A</div>
+        <div>V</div>
+        <div>E</div>
+    </div>
+    <a href="#">
+        <button type="button" name="shopMen">Shop Men's Collection</button>
+    </a>
+    <div class="homepage-img">
+    </div>
+</header>
+<main id="main">
+    <div class="border"></div>
+    <ul class="product-filter">
+        <li class="product-filter-item" onclick="sort()">Popular</li>
+        <li class="product-filter-item" onclick="sort('ascPrice')">Price Low to High</li>
+        <li class="product-filter-item" onclick="sort('descPrice')">Price high to low</li>
+        <li class="product-filter-item" onclick="sort()">Special Offers</li>
+    </ul>
+    <div class="content" id="page1">
+        <div class="first">
+            <div class="image-mini">
+                <b><sup>£</sup>89.99</b>
+                <img src="../img/sweatshirt_black.png" alt="Sweatshirt black" id="sweatshirt_black"
+                     class="image-clothes">
+                <div class="hidden">
+                    <a href="#"><i class="fa fa-info-circle"></i></a>
+                    <h2>Men's Sweatshirt black<sup>£</sup>89.99</h2>
+                    <h3> Classic casual sweatshirt for men on the move.<br>
+                        100% cotton.</h3>
+                </div>
+            </div>
+            <div class="image-mini">
+                <b><sup>£</sup>47.50</b>
+                <img src="../img/tshirt_white.png" alt="Tshirt white" id="tshirt_white" class="image-clothes">
+                <div class="hidden">
+                    <a href="#"><i class="fa fa-info-circle"></i></a>
+                    <h2>Women's white shirt<sup>£</sup>47.50</h2>
+                    <h3>Classic casual t-shirt for women on the move. <br>
+                        100% cotton.</h3>
+                </div>
+            </div>
+            <div class="image-big">
+                <b><s><sup>£</sup>107</s> <sup>£</sup>89.99</b>
+                <img src="../img/pullover_black.png" alt="Pullover black" id="pullover_black" class="image-clothes">
+                <div class="hidden">
+                    <a href="#"><i class="fa fa-info-circle"></i></a>
+                    <h2>Men's sweatshirt black <sup>£</sup>89.99</h2>
+                    <h3>Classic casual sweatshirt for men. <br>
+                        100% cotton.</h3>
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <div class="image-big">
+                <b><sup>£</sup>69.95</b>
+                <img src="../img/sweatshirt_blue.png" alt="Sweatshirt blue" id="sweatshirt_blue" class="image-clothes">
+                <div class="hidden">
+                    <a href="#"><i class="fa fa-info-circle"></i></a>
+                    <h2>Men's sweatshirt blue <sup>£</sup>69.95</h2>
+                    <h3>Classic casual sweatshirt for men. <br>
+                        100% cotton.</h3>
+                </div>
+            </div>
+            <div class="image-mini">
+                <b><sup>£</sup>29.95</b>
+                <img src="../img/tshirt_orange.png" alt="Tshirt orange" id="tshirt_orange" class="image-clothes">
+                <div class="hidden">
+                    <a href="#"><i class="fa fa-info-circle"></i></a>
+                    <h2>Women's burnt orange casual tee <sup>£</sup>29.95</h2>
+                    <h3>Classic casual t-shirt for women on the move. <br>
+                        100% cotton.</h3>
+                </div>
+            </div>
+            <div class="image-mini">
+                <b><sup>£</sup>34.79</b>
+                <img src="../img/tshirt_green.png" alt="Tshirt green" id="tshirt_green" class="image-clothes">
+                <div class="hidden">
+                    <a href="#"><i class="fa fa-info-circle"></i></a>
+                    <h2>Women's green t-shirt <sup>£</sup>34.70</h2>
+                    <h3>Classic casual t-shirt for women on the move. <br>
+                        100% cotton.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page 2 -->
+    <div class="content" id="page2">
+        <div class="first">
+            <div class="image-mini">
+                <b><s><sup>£</sup>82</s> <sup>£</sup>69.99</b>
+                <img src="../img/classic_sweatshirt.png" alt="Classic Sweatshirt" id="classic_sweatshirt"
+                     class="image-clothes">
+                <div class="hidden">
+                    <a href="#"><i class="fa fa-info-circle"></i></a>
+                    <h2>Classic Sweatshirt<sup>£</sup>69.99</h2>
+                    <h3>Classic casual sweatshirt for men on the move. <br>
+                        100% cotton.</h3>
+                </div>
+            </div>
+            <div class="image-mini">
+                <b><s><sup>£</sup>82</s> <sup>£</sup>31.99</b>
+                <img src="../img/grey_black.png" alt="Tshirt black" id="tshirt_black" class="image-clothes">
+                <div class="hidden">
+                    <a href="#"><i class="fa fa-info-circle"></i></a>
+                    <h2>Womens black T-Shirt<sup>£</sup>31.99</h2>
+                    <h3>Classic casual T-Shirt for women on the move. <br>
+                        100% cotton.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pagination">
+        <a class="active" onclick="changePage(1)">1</a>
+        <a onclick="changePage(2)">2</a>
+    </div>
+</main>
+<div class="footer"></div>
+<!--<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="../js/main.js"></script>
+<script src="../js/generic.js"></script>
+<script src="../js/home.js"></script>
+<script src="../js/pagination.js"></script>-->
+</body>
+</html>

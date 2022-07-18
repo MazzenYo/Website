@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Local Stores</title>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/5fe191d028.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/LocalStores.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/styling.css">
+</head>
+<body>
+<div class="header"></div>
+<main>
+    <div class="locations">
+        <div>
+            <h1>London</h1>
+            <h2>180-182 Regent Street, London, W1B 5BT</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing esi elit.
+                Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor
+                odio. Fusce posuere nunc iaculis ligula viverra iaculis. Aliquam
+                erat volutpat.</p>
+            <button name="loDetails" type="button">View Details</button>
+        </div>
+        <div>
+            <h1>New York</h1>
+            <h2>109 Columbus Circle, New York, NY 10023</h2>
+            <p>Nunc non posuere nisl. Etiam finibus vel dui nec lobortis.
+                Aliquam egestas, sem quis condimentum venenatis, erat leo fermentum
+                dolor, non sollicitudin massa mi eu nibh. Nullam vitae aliquam dui,
+                non sodales nisl.</p>
+            <button name="nyDetails" type="button">View Details</button>
+        </div>
+        <div>
+            <h1>Paris</h1>
+            <h2>213 Rue Saint-Honoré, 75001 Paris</h2>
+            <p>Ut interdum fermentum blandit. Donec nec lacus egetit mi rhoncus
+                eleifend. Curabitur laoreet nisl eget rutruml auctor. Vestibulum
+                ante ipsum primis in faucibus orcip luctus et ultrices posuere
+                cubilia curae cras ligula.</p>
+            <button name="paDetails" type="button">View Details</button>
+        </div>
+    </div>
+</main>
+<div class="location-detail">
+    <div id="map"></div>
+    <div class="detail">
+        <h1 class="NameDetail">London</h1>
+        <h2 class="streetDetail">180-182 Regent Street, London, W1B 5BT</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing esi elit.
+            Vivamus at arcu sem. Vestibulum ornare eleifendit massa, nec tempor
+            odio. Fusce posuere nunc iaculis ligula viverra iaculis.
+            Aliquam erat volutpat.</p>
+        <div class="contact">
+            <i class="fa fa-map-marker"></i>&nbsp;<a class="markerText">180-182 Regent Street, London, W1B 5BT </a><br>
+            <i class="fa fa-phone"></i> <a href="tel:0123-456-789">0123-456-789</a> <br>
+            <i class="fa fa-link"></i> <a href="https://www.yourwebsite.com">www.yourwebsite.com</a> <br>
+            <i class="fa fa-envelope-o"></i> <a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a> <br>
+            <i class="fa fa-clock-o"></i> Monday-Friday: 9am to 6pm Saturday: 10am to 6pm Sunday: 10am to 2pm<br>
+        </div>
+        <div class="Social-Media">
+            <div>
+                <button name="facebook" onclick="window.location.href='https://www.facebook.com'" type="button"><i
+                        class="fa fa-facebook"></i></button>
+            </div>
+            <div>
+                <button name="twitter" onclick="window.location.href='https://www.twitter.com'" type="button"><i
+                        class="fa fa-twitter"></i></button>
+            </div>
+            <div>
+                <button name="instagram" onclick="window.location.href='https://www.instagram.com'"
+                        type="button"><i class="fa fa-instagram"></i></button>
+            </div>
+            <div>
+                <button name="pinterest" onclick="window.location.href='https://www.pinterest.com'"
+                        type="button"><i class="fa fa-pinterest"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer"></div>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="../javascript/DOM/main.js"></script>
+<script src="../javascript/DOM/generation.js"></script>
+<script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTEOR9UVof0I4fRgnkrwB0vWoLpfWL1Io&callback=initMap"></script>
+<script src="../javascript/DOM/stores.js"></script>
+</body>
+</html>

@@ -8,7 +8,6 @@ const mongoose = require('mongoose');
 app.use(express.json());
 app.use(morgan('tiny'));
 
-
 //Database connection
 mongoose.connect('mongodb+srv://gfe:gfe@cluster0.drprf.mongodb.net/?retryWrites=true&w=majority')
     .then(() => {

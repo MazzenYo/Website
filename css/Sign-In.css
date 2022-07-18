@@ -31,7 +31,7 @@ input {
 
 /* Sign in Button */
 .container button {
-    width: 149px;
+    width: auto;
     height: 59px;
     margin-top: 30px;
 }
@@ -42,4 +42,8 @@ input {
 
 .errorMessage {
     color: red;
+}
+
+#register {
+    float: right;
 }
