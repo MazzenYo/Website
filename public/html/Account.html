@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Account</title>
+    <script src="https://kit.fontawesome.com/5fe191d028.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/Sign-In.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/styling.css">
+</head>
+<body>
+<div class="header"></div>
+<main>
+    <div class="container">
+        <label>change Password</label>
+        <form action="/changePassword" method="post">
+            <input type="password" placeholder="Your old Password." name="oldPw" id="oldPw" required>
+            <input type="password" placeholder="Your new Password." name="password" id="password" required>
+            <input type="password" placeholder="Enter your new Password again." name="newPw" id="newPw" required>
+            <button type="submit" id="submit">Change now</button>
+        </form>
+
+        <form action="/deleteAccount" method="post">
+            <button name="delete" value="delete">Delete Account</button>
+        </form>
+    </div>
+</main>
+<div class="footer"></div>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="../javascript/DOM/main.js"></script>
+<script src="../javascript/DOM/generation.js"></script>
+</body>
+</html>

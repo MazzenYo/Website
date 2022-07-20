@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Look Book</title>
+
+    <script src="https://kit.fontawesome.com/5fe191d028.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/CreateLookBook.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/styling.css">
+</head>
+<body>
+<div class="header"></div>
+<main>
+    <div class="border">
+        <div>
+            <div class="container">
+                <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
+                <form onsubmit="safe" target="">
+                    <label>Create your own Look Book</label>
+                    <p class="form-error-message"></p>
+                    <input id="headline" type="text" placeholder="Headline.." name="headline" required>
+                    <p class="form-error-message"></p>
+                    <input id="price" type="number" step="0.01" placeholder="Your dresses price.." name="price"
+                           required>
+                    <p class="form-error-message"></p>
+                    <input id="desc" type="text" placeholder="Your dresses description.." name="description" required>
+                    <br>
+                    <p class="form-error-message"></p>
+                    <label for="upload" class="custom-file-upload">
+                        <span class="text-box">UPLOAD PICTURE</span>
+                    </label>
+                    <input id="upload" name="img" type="file"/>
+                    <br>
+                    <div class="item">
+                        <input name="agree" type="checkbox" id="agree">
+                        <label id="agreeCheck" for="agree"> Agree to publish your details on the website.</label>
+                    </div>
+                    <button type="submit" style="text-transform: uppercase">Create or update</button>
+                </form>
+            </div>
+        </div>
+        <div></div>
+    </div>
+</main>
+<div class="footer"></div>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="../javascript/DOM/main.js"></script>
+<script src="../javascript/DOM/generation.js"></script>
+</body>
+</html>
