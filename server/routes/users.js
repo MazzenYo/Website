@@ -79,11 +79,12 @@ router.post('/login', async (req, res) => {
         console.log(token);
 
         //Set the login session
-        storage.setItem('status', 'loggedIn')
+        storage.setItem('status', token)
 
         res.redirect('../html/CreateLookBook.html');
 
     } else {
+
         res.status(400).send('password is wrong!');
     }
 
